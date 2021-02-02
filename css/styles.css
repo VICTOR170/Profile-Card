@@ -1,0 +1,119 @@
+body {
+  background-color: hsl(185, 75%, 39%);
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+h3 {
+  color: hsl(229, 23%, 23%);
+  margin: 20px 0 10px;
+}
+
+h5 {
+  color: hsl(0, 0%, 59%);
+  font-weight: normal;
+  margin: 10px 0 18px;
+}
+
+h6 {
+  color: hsl(0, 0%, 59%);
+  margin: 5px 0 15px;
+  font-weight: normal;
+}
+
+span {
+  color: hsl(0, 0%, 59%);
+  font-weight: normal;
+  padding-left: 5px;
+}
+
+hr {
+  color: hsl(0, 0%, 100%);
+  font-weight: lighter;
+  margin: 0;
+}
+.main {
+  display: block;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.top-pattern {
+  position: absolute;
+  display: inline-block;
+  transform: translate(-104%, -58%);
+}
+
+.bottom-img {
+  position: fixed;
+  transform: translate(70%, 25%);
+}
+
+.top-container {
+  height: 140px;
+}
+
+.middle-container {
+  height: 150px;
+}
+
+.bottom-container {
+  height: 95px;
+}
+
+.profile_card {
+  position: absolute;
+  background-color: white;
+  border-radius: 20px;
+  display: inline-block;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  height: 385px;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  width: 350px;
+}
+
+.pattern-card {
+  border-radius: 20px 20px 0 0;
+}
+
+.profile-img {
+  border: 5px solid white;
+  border-radius: 100%;
+  margin-top: -50px;
+}
+
+.follower {
+  display: inline-block;
+  padding-right: 10px;
+  width: 87.5px;
+}
+
+.likes {
+  display: inline-block;
+  width: 87.5px;
+}
+
+.photos {
+  display: inline-block;
+  padding-left: 10px;
+  width: 87.5px;
+}
+
+.views {
+  margin: 20px 0 5px;
+}
